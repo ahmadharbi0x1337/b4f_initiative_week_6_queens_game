@@ -1,0 +1,13 @@
+.square {
+  box-sizing: border-box; /* 1. Forces padding and border inside the 50px limit */
+  border: 2px solid rgb(0, 0, 0);
+  background-color: bisque;
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0; /* 2. Remove or reduce padding so flexbox can center perfectly */
+  margin-bottom: 10px;
+  font-size: 24px;
+}
